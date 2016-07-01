@@ -1,0 +1,7 @@
+﻿<Properties StartupItem="Chordy/Chordy.csproj">
+  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Chordy PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.E10C80B0-2BBD-4C09-B963-3B33651FF562" />
+</Properties>
