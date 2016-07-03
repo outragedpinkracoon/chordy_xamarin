@@ -98,4 +98,10 @@
     </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
+  <ItemGroup>
+    <ProjectReference Include="..\Chordy.Models\Chordy.Models.csproj">
+      <Project>{45EC8C43-D985-432A-B9CB-9EAAEE2D050C}</Project>
+      <Name>Chordy.Models</Name>
+    </ProjectReference>
+  </ItemGroup>
 </Project>

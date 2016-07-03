@@ -13,3 +13,11 @@
 /Users/valerie/projects/Chordy/Chordy/bin/iPhoneSimulator/Debug/Chordy.exe
 /Users/valerie/projects/Chordy/Chordy/obj/iPhoneSimulator/Debug/Chordy.exe
 /Users/valerie/projects/Chordy/Chordy/obj/iPhoneSimulator/Debug/Chordy.exe.mdb
+/Users/valerie/Dev/chordy_xamarin/Chordy/obj/iPhoneSimulator/Debug/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
+/Users/valerie/Dev/chordy_xamarin/Chordy/obj/iPhoneSimulator/Debug/optimized/
+/Users/valerie/Dev/chordy_xamarin/Chordy/bin/iPhoneSimulator/Debug/Chordy.exe.mdb
+/Users/valerie/Dev/chordy_xamarin/Chordy/bin/iPhoneSimulator/Debug/Chordy.exe
+/Users/valerie/Dev/chordy_xamarin/Chordy/obj/iPhoneSimulator/Debug/Chordy.exe
+/Users/valerie/Dev/chordy_xamarin/Chordy/obj/iPhoneSimulator/Debug/Chordy.exe.mdb
+/Users/valerie/Dev/chordy_xamarin/Chordy/bin/iPhoneSimulator/Debug/Chordy.Models.dll
+/Users/valerie/Dev/chordy_xamarin/Chordy/bin/iPhoneSimulator/Debug/Chordy.Models.dll.mdb

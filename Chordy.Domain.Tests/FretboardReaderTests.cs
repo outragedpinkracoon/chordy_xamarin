@@ -18,18 +18,6 @@ namespace Chordy.Domain.Tests
 		}
 
 		[Test]
-		public void ShouldHaveStandardTuning()
-		{
-			Assert.That(reader.Tuning, Is.EqualTo(tuning));
-		}
-
-		[Test]
-		public void ShouldHaveNotes()
-		{
-			Assert.That(reader.NoteLookup, Is.EqualTo(lookup));
-		}
-
-		[Test]
 		public void InvalidNoteQuantityShouldReturnEmptyList()
 		{
 			var input = new List<string>() { "x", "x", "x", "x" };

@@ -34,15 +34,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="FretboardReaderTests.cs" />
+    <Compile Include="ChordFinderTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <ItemGroup>
     <ProjectReference Include="..\Chordy.Domain\Chordy.Domain.csproj">
       <Project>{34EDC3C4-F3B7-4298-97C4-F48FBA202997}</Project>
       <Name>Chordy.Domain</Name>
     </ProjectReference>
   </ItemGroup>
-  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

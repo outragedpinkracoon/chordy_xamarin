@@ -1,5 +1,6 @@
-﻿using System;
-
+﻿using System.Collections.Generic;
+using System;
+using Chordy.Domain;
 using UIKit;
 
 namespace Chordy
@@ -22,10 +23,14 @@ namespace Chordy
 			// Release any cached data, images, etc that aren't in use.
 		}
 
-		//partial void FindChordButton_TouchUpInside(UIButton sender)
-		//{
-		//	new FretBoardReader();
-		//}
+		partial void FindChordButton_TouchUpInside(UIButton sender)
+		{
+			var lookup = new NoteLookup();
+			var tuning = new List<string>() { "E", "A", "D", "G", "B", "E" };
+			var reader = new FretboardReader(tuning, lookup);
+			var notes = reader.GenerateNotes(new List<string>() { "X", "3", "2", "0", "1", "0" });
+
+		}
 	}
 }
 

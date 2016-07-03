@@ -33,6 +33,7 @@
     <Compile Include="FretboardReader.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Notelookup.cs" />
+    <Compile Include="ChordFinder.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

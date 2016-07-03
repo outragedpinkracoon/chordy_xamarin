@@ -4,27 +4,29 @@ namespace Chordy.Domain
 {
 	public class FretboardReader
 	{
-		public List<string> Tuning { get; private set; }
-		public NoteLookup NoteLookup { get; private set; }
+		List<string> tuning { get; set; }
+		List<string> notes { get; set; }
 
-		public FretboardReader(List<string> tuning, NoteLookup notes)
+		public FretboardReader(List<string> tuning, NoteLookup lookup)
 		{
-			Tuning = tuning;
-			NoteLookup = notes;
+			this.tuning = tuning;
+			this.notes = lookup.notes;
 		}
 
 		public List<string> GenerateNotes(List<string> fretboardValues)
 		{
 			var chordNotes = new List<string>();
-			if (fretboardValues.Count < Tuning.Count)
+			if (fretboardValues.Count < tuning.Count)
 				return chordNotes;
 
 			var index = 0;
 			foreach (var fretNumber in fretboardValues)
 			{
-				if (fretNumber.ToLower().Equals("x"))
+				if (fretNumber.ToLower ().Equals ("x")) {
+					index++;
 					continue;
-				var standardTuningNote = Tuning[index];
+				}
+				var standardTuningNote = tuning[index];
 				var note = FindNote(fretNumber, standardTuningNote);
 				chordNotes.Add(note);
 				index++;
@@ -36,17 +38,17 @@ namespace Chordy.Domain
 
 		}
 
-		public String FindNote(String fretboardPosition, String openNote)
+		public string FindNote(string fretboardPosition, string openNote)
 		{
 			var frettedNoteIndex = FrettedNoteIndex(fretboardPosition, openNote);
-			var frettedNote = NoteLookup.notes[frettedNoteIndex];
+			var frettedNote = notes[frettedNoteIndex];
 			return frettedNote;
 		}
 
-		public int FrettedNoteIndex(String fretboardPosition, String openNote)
+		public int FrettedNoteIndex(string fretboardPosition, string openNote)
 		{
 			var fretNumber = int.Parse(fretboardPosition);
-			var noteIndex = NoteLookup.notes.IndexOf(openNote);
+			var noteIndex = notes.IndexOf(openNote);
 			var frettedNoteIndex = fretNumber + noteIndex;
 			var validFrettedNoteIndex = ValidNoteIndex(frettedNoteIndex);
 			return validFrettedNoteIndex;
@@ -54,7 +56,7 @@ namespace Chordy.Domain
 
 		public int ValidNoteIndex(int frettedNoteIndex)
 		{
-			var numberOfNotes = NoteLookup.notes.Count;
+			var numberOfNotes = notes.Count;
 			if (frettedNoteIndex < numberOfNotes - 1)
 				return frettedNoteIndex;
 			var overflowTimes = frettedNoteIndex / numberOfNotes;
@@ -65,11 +67,14 @@ namespace Chordy.Domain
 		public List<string> RemoveDuplicateNotes(List<string> chordNotes)
 		{
 			var uniqueNotes = new List<string>();
+
 			foreach (var note in chordNotes)
 			{
-				if (!uniqueNotes.Contains(note))
-					uniqueNotes.Add(note);
+				if (!uniqueNotes.Contains (note)) {
+					uniqueNotes.Add (note);
+				}
 			}
+
 			return uniqueNotes;
 		}
 	}

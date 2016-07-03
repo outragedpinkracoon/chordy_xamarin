@@ -3,3 +3,8 @@
 /Users/valerie/projects/Chordy/Chordy.Domain/bin/Debug/Chordy.Domain.dll
 /Users/valerie/projects/Chordy/Chordy.Domain/obj/Debug/Chordy.Domain.dll
 /Users/valerie/projects/Chordy/Chordy.Domain/obj/Debug/Chordy.Domain.dll.mdb
+/Users/valerie/Dev/chordy_xamarin/Chordy.Domain/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/valerie/Dev/chordy_xamarin/Chordy.Domain/bin/Debug/Chordy.Domain.dll.mdb
+/Users/valerie/Dev/chordy_xamarin/Chordy.Domain/bin/Debug/Chordy.Domain.dll
+/Users/valerie/Dev/chordy_xamarin/Chordy.Domain/obj/Debug/Chordy.Domain.dll
+/Users/valerie/Dev/chordy_xamarin/Chordy.Domain/obj/Debug/Chordy.Domain.dll.mdb
