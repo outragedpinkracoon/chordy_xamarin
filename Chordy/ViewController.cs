@@ -29,7 +29,7 @@ namespace Chordy
 			var tuning = new List<string>() { "E", "A", "D", "G", "B", "E" };
 			var reader = new FretboardReader(tuning, lookup);
 			var notes = reader.GenerateNotes(new List<string>() { "X", "3", "2", "0", "1", "0" });
-
+			ChordResult.Text = notes.ToString();
 		}
 	}
 }

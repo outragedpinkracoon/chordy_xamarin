@@ -13,12 +13,12 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <subviews>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="3" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" placeholder="Enter chord notes">
-                                <rect key="frame" x="206" y="145" width="190" height="30"/>
+                                <rect key="frame" x="82" y="123" width="190" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
@@ -26,7 +26,7 @@
                                 </variation>
                             </textField>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Chordy" lineBreakMode="tailTruncation" minimumFontSize="10" id="4" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
-                                <rect key="frame" x="226" y="93" width="148" height="21"/>
+                                <rect key="frame" x="148" y="63" width="59" height="21"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -36,7 +36,7 @@
                                 </variation>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" lineBreakMode="wordWrap" minimumFontSize="10" id="9" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" numberOfLines="5" text="Enter the fret numbers starting from the root and separated with a space. Use 0 (zero) for open and X for not used." textAlignment="center">
-                                <rect key="frame" x="182" y="192" width="237" height="154"/>
+                                <rect key="frame" x="69" y="292" width="237" height="154"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -45,7 +45,7 @@
                                     <rect key="frame" x="69" y="264" width="237" height="154"/>
                                 </variation>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="14" translatesAutoresizingMaskIntoConstraints="NO">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="14" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
                                 <rect key="frame" x="164" y="240" width="46" height="30"/>
                                 <state key="normal" title="Find Chord">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
@@ -57,7 +57,7 @@
                                     <action selector="FindChordButton_TouchUpInside:" destination="BYZ-38-t0r" id="19" eventType="touchUpInside"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="E.g. 0 X 1 3 4 X" lineBreakMode="tailTruncation" minimumFontSize="10" id="16" translatesAutoresizingMaskIntoConstraints="NO">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="E.g. 0 X 1 3 4 X" lineBreakMode="tailTruncation" minimumFontSize="10" id="16" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
                                 <rect key="frame" x="166" y="426" width="42" height="21"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
@@ -66,6 +66,22 @@
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="126" y="426" width="124" height="21"/>
                                 </variation>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="23" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="138" y="180" width="80" height="30"/>
+                                <state key="normal" title="Find Chord">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="FindChordButton_TouchUpInside:" destination="BYZ-38-t0r" id="24" eventType="touchUpInside"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Result appears here" lineBreakMode="tailTruncation" minimumFontSize="10" id="25" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" numberOfLines="4" textAlignment="center">
+                                <rect key="frame" x="98" y="245" width="160" height="21"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <variation key="default">
@@ -84,6 +100,8 @@
                     <connections>
                         <outlet property="In" destination="3" id="name-outlet-3"/>
                         <outlet property="findChordButton" destination="14" id="name-outlet-14"/>
+                        <outlet property="FindChordButton" destination="23" id="name-outlet-23"/>
+                        <outlet property="ChordResult" destination="25" id="name-outlet-25"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

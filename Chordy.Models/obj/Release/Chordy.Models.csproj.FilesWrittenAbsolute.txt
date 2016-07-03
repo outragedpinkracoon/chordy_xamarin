@@ -1,0 +1,6 @@
+/Users/valerie/Dev/chordy_xamarin/Chordy.Models/obj/Release/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
+/Users/valerie/Dev/chordy_xamarin/Chordy.Models/obj/Release/optimized/
+/Users/valerie/Dev/chordy_xamarin/Chordy.Models/bin/Release/Chordy.Models.dll.mdb
+/Users/valerie/Dev/chordy_xamarin/Chordy.Models/bin/Release/Chordy.Models.dll
+/Users/valerie/Dev/chordy_xamarin/Chordy.Models/obj/Release/Chordy.Models.dll
+/Users/valerie/Dev/chordy_xamarin/Chordy.Models/obj/Release/Chordy.Models.dll.mdb
