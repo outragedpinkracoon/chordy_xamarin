@@ -20,35 +20,13 @@ namespace Chordy
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
-        UIKit.UIButton findChordButton { get; set; }
-
-        [Outlet]
-        [GeneratedCode ("iOS Designer", "1.0")]
-        UIKit.UIButton FindChordButton { get; set; }
-
-        [Outlet]
-        [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UITextField In { get; set; }
-
-        [Action ("FindChordButton_TouchUpInside:")]
-        [GeneratedCode ("iOS Designer", "1.0")]
-        partial void FindChordButton_TouchUpInside (UIKit.UIButton sender);
 
         void ReleaseDesignerOutlets ()
         {
             if (ChordResult != null) {
                 ChordResult.Dispose ();
                 ChordResult = null;
-            }
-
-            if (findChordButton != null) {
-                findChordButton.Dispose ();
-                findChordButton = null;
-            }
-
-            if (FindChordButton != null) {
-                FindChordButton.Dispose ();
-                FindChordButton = null;
             }
 
             if (In != null) {
