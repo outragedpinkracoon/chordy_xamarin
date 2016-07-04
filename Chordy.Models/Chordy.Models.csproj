@@ -42,6 +42,7 @@
     <Compile Include="FretboardReader.cs" />
     <Compile Include="Notelookup.cs" />
     <Compile Include="ChordFinder.cs" />
+    <Compile Include="ListExtensions.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>
