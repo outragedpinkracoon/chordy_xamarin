@@ -16,22 +16,35 @@ namespace Chordy
     {
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
-        UIKit.UILabel ChordResult { get; set; }
+        UIKit.UITextField ChordTextInput { get; set; }
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
-        UIKit.UITextField In { get; set; }
+        UIKit.UILabel ResultLabel { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UIButton SearchButton { get; set; }
+
+        [Action ("SearchButton_TouchUpInside:")]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        partial void SearchButton_TouchUpInside (UIKit.UIButton sender);
 
         void ReleaseDesignerOutlets ()
         {
-            if (ChordResult != null) {
-                ChordResult.Dispose ();
-                ChordResult = null;
+            if (ChordTextInput != null) {
+                ChordTextInput.Dispose ();
+                ChordTextInput = null;
             }
 
-            if (In != null) {
-                In.Dispose ();
-                In = null;
+            if (ResultLabel != null) {
+                ResultLabel.Dispose ();
+                ResultLabel = null;
+            }
+
+            if (SearchButton != null) {
+                SearchButton.Dispose ();
+                SearchButton = null;
             }
         }
     }

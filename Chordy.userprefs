@@ -1,7 +1,9 @@
-﻿<Properties StartupItem="Chordy/Chordy.csproj" RefactoringSettings.EnableRefactorings="True">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Chordy.Domain.Tests/FretboardReaderTests.cs">
+﻿<Properties StartupItem="Chordy/Chordy.csproj">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Chordy.Domain/Notelookup.cs">
     <Files>
-      <File FileName="Chordy.Domain.Tests/FretboardReaderTests.cs" Line="34" Column="4" />
+      <File FileName="Chordy.Domain/Notelookup.cs" Line="10" Column="13" />
+      <File FileName="Chordy.Domain.Tests/FretboardReaderTests.cs" Line="114" Column="9" />
+      <File FileName="Chordy.Domain/FretboardReader.cs" Line="35" Column="8" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
@@ -9,5 +11,5 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.Chordy PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.3715A779-2A90-49E5-AD72-DF223B33F239" />
+  <MonoDevelop.Ide.ItemProperties.Chordy PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.E10C80B0-2BBD-4C09-B963-3B33651FF562" />
 </Properties>

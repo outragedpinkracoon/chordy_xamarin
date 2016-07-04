@@ -17,7 +17,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <subviews>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="3" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" placeholder="Enter chord notes">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" minimumFontSize="17" id="3" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" placeholder="Enter chord notes" textAlignment="center">
                                 <rect key="frame" x="82" y="123" width="190" height="30"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -74,6 +74,15 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="29" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="136" y="182" width="83" height="30"/>
+                                <state key="normal" title="Find chord">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="SearchButton_TouchUpInside:" destination="BYZ-38-t0r" id="30" eventType="touchUpInside"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <variation key="default">
                             <mask key="subviews">
@@ -89,9 +98,10 @@
                         </variation>
                     </view>
                     <connections>
-                        <outlet property="In" destination="3" id="name-outlet-3"/>
+                        <outlet property="ChordTextInput" destination="3" id="name-outlet-3"/>
                         <outlet property="findChordButton" destination="14" id="name-outlet-14"/>
-                        <outlet property="ChordResult" destination="25" id="name-outlet-25"/>
+                        <outlet property="ResultLabel" destination="25" id="name-outlet-25"/>
+                        <outlet property="SearchButton" destination="29" id="name-outlet-29"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

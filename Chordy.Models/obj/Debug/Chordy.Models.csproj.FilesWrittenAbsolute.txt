@@ -4,3 +4,9 @@
 /Users/valerie/Dev/chordy_xamarin/Chordy.Models/bin/Debug/Chordy.Models.dll
 /Users/valerie/Dev/chordy_xamarin/Chordy.Models/obj/Debug/Chordy.Models.dll
 /Users/valerie/Dev/chordy_xamarin/Chordy.Models/obj/Debug/Chordy.Models.dll.mdb
+/Users/valerie/projects/Chordy/Chordy.Models/obj/Debug/Xamarin.iOS,Version=v1.0.AssemblyAttribute.cs
+/Users/valerie/projects/Chordy/Chordy.Models/obj/Debug/optimized/
+/Users/valerie/projects/Chordy/Chordy.Models/bin/Debug/Chordy.Models.dll.mdb
+/Users/valerie/projects/Chordy/Chordy.Models/bin/Debug/Chordy.Models.dll
+/Users/valerie/projects/Chordy/Chordy.Models/obj/Debug/Chordy.Models.dll
+/Users/valerie/projects/Chordy/Chordy.Models/obj/Debug/Chordy.Models.dll.mdb

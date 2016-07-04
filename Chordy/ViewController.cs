@@ -23,6 +23,10 @@ namespace Chordy
 			// Release any cached data, images, etc that aren't in use.
 		}
 
+		partial void SearchButton_TouchUpInside(UIButton sender)
+		{
+			throw new NotImplementedException();
+		}
 	}
 }
 
