@@ -36,6 +36,7 @@ namespace Chordy.Domain
 				var noteInterval = lookup.NoteInterval(rootNoteIndex, note);
 				chordArray.Add(noteInterval);
 			}
+			chordArray.Sort();
 			return chordArray;
 		}
 	}

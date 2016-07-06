@@ -1,9 +1,13 @@
 ﻿<Properties StartupItem="Chordy/Chordy.csproj">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Chordy.Domain/Notelookup.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Chordy.Domain.Tests/FretboardReaderTests.cs">
     <Files>
       <File FileName="Chordy.Domain/Notelookup.cs" Line="10" Column="13" />
-      <File FileName="Chordy.Domain.Tests/FretboardReaderTests.cs" Line="114" Column="9" />
+      <File FileName="Chordy.Domain.Tests/FretboardReaderTests.cs" Line="98" Column="85" />
       <File FileName="Chordy.Domain/FretboardReader.cs" Line="35" Column="8" />
+      <File FileName="Chordy/ViewController.cs" Line="34" Column="70" />
+      <File FileName="Chordy.Domain/ListExtensions.cs" Line="7" Column="3" />
+      <File FileName="Chordy.Models/ListExtensions.cs" Line="20" Column="1" />
+      <File FileName="Chordy.Models/FretboardReader.cs" Line="30" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
