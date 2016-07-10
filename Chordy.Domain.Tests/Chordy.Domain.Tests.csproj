@@ -36,7 +36,7 @@
     <Compile Include="FretboardReaderTests.cs" />
     <Compile Include="ChordFinderTests.cs" />
     <Compile Include="ChordLookupTests.cs" />
-    <Compile Include="ChordyTests.cs" />
+    <Compile Include="ChordyRunnerTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

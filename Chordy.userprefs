@@ -1,13 +1,10 @@
 ﻿<Properties StartupItem="Chordy/Chordy.csproj">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Chordy.Domain.Tests/FretboardReaderTests.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Chordy/ViewController.cs">
     <Files>
-      <File FileName="Chordy.Domain/Notelookup.cs" Line="10" Column="13" />
-      <File FileName="Chordy.Domain.Tests/FretboardReaderTests.cs" Line="98" Column="85" />
-      <File FileName="Chordy.Domain/FretboardReader.cs" Line="35" Column="8" />
-      <File FileName="Chordy/ViewController.cs" Line="34" Column="70" />
-      <File FileName="Chordy.Domain/ListExtensions.cs" Line="7" Column="3" />
-      <File FileName="Chordy.Models/ListExtensions.cs" Line="20" Column="1" />
-      <File FileName="Chordy.Models/FretboardReader.cs" Line="30" Column="1" />
+      <File FileName="Chordy.Models/Notelookup.cs" Line="1" Column="1" />
+      <File FileName="Chordy.Models/Chordy.cs" Line="26" Column="28" />
+      <File FileName="Chordy.Models/ChordLookup.cs" Line="23" Column="38" />
+      <File FileName="Chordy/ViewController.cs" Line="32" Column="4" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
@@ -15,5 +12,6 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.Chordy PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.E10C80B0-2BBD-4C09-B963-3B33651FF562" />
+  <MonoDevelop.Ide.ItemProperties.Chordy.Main PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.3715A779-2A90-49E5-AD72-DF223B33F239" />
+  <MonoDevelop.Ide.ItemProperties.Chordy PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.3715A779-2A90-49E5-AD72-DF223B33F239" />
 </Properties>

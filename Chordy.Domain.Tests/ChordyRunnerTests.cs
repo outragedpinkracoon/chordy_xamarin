@@ -4,11 +4,11 @@ namespace Chordy.Domain.Tests
 {
 	public class ChordyTests
 	{
-		Chordy chordy;
+		ChordyRunner chordy;
 
 		public ChordyTests()
 		{
-			chordy = new Chordy();
+			chordy = new ChordyRunner();
 		}
 
 		[Test]

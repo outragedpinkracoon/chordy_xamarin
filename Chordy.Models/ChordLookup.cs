@@ -20,12 +20,12 @@ namespace Chordy.Domain
 			};
 		}
 
-		public string ConvertToKey(List<string> intervalsArray)
+		public string ConvertToKey(List<int> intervalsArray)
 		{
 			return string.Join("-", intervalsArray);
 		}
 
-		public string FindChord(List<string> intervalsArray, string rootNote)
+		public string FindChord(List<int> intervalsArray, string rootNote)
 		{
 			string result = rootNote + " ";
 			var key = ConvertToKey(intervalsArray);

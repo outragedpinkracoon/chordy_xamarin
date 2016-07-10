@@ -8,6 +8,8 @@ namespace Chordy
 {
 	public partial class ViewController : UIViewController
 	{
+		ChordyRunner chordy = new ChordyRunner();
+
 		public ViewController (IntPtr handle) : base (handle)
 		{
 		}
@@ -27,17 +29,20 @@ namespace Chordy
 
 		partial void SearchButton_TouchUpInside(UIButton sender)
 		{
+			ResultLabel.Hidden = false;
+			ResultLabel.Text = Run();
+		}
+
+		string Run()
+		{
 			var input = ChordTextInput.Text;
 			string[] raw = input.Split(' ');
-			List<string> config = new List<string>(raw);
+			var config = new List<string>(raw);
 
-			var chordy = new Chordy();
 			var chord = chordy.Run(config);
-
-			ResultLabel.Hidden = false;
-			ResultLabel.Text = result.Prettify();
-
+			return chord;
 		}
+			
 	}
 }
 

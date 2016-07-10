@@ -2,14 +2,14 @@
 using System.Collections.Generic;
 namespace Chordy.Domain
 {
-	public class Chordy
+	public class ChordyRunner
 	{
 		NoteLookup noteLookup;
 		FretboardReader reader;
 		ChordFinder chordFinder;
 		ChordLookup chordLookup;
 
-		public Chordy()
+		public ChordyRunner()
 		{
 			noteLookup = new NoteLookup();
 			reader = new FretboardReader(new List<string> { "E", "A", "D", "G", "B", "E"}, noteLookup);

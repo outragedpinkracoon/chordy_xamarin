@@ -44,7 +44,7 @@
     <Compile Include="ChordFinder.cs" />
     <Compile Include="ListExtensions.cs" />
     <Compile Include="ChordLookup.cs" />
-    <Compile Include="Chordy.cs" />
+    <Compile Include="ChordyRunner.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>

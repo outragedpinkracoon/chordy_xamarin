@@ -36,7 +36,7 @@
     <Compile Include="ChordFinder.cs" />
     <Compile Include="ListExtensions.cs" />
     <Compile Include="ChordLookup.cs" />
-    <Compile Include="Chordy.cs" />
+    <Compile Include="ChordyRunner.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -18,17 +18,17 @@ namespace Chordy.Domain
 			{
 				return chordNotes[0];
 			}
-			var index = rootNoteIndex(chordNotes);
+			var index = RootNoteIndex(chordNotes);
 			return index.ToString();
 		}
 
-		public int rootNoteIndex(List<string> chordNotes)
+		public int RootNoteIndex(List<string> chordNotes)
 		{
 			var rootNote = chordNotes[0];
 			return lookup.NoteIndex(rootNote);
 		}
 
-		public List<int> note_intervals(List<string> chordNotes, int rootNoteIndex)
+		public List<int> NoteIntervals(List<string> chordNotes, int rootNoteIndex)
 		{
 			var chordArray = new List<int>();
 			foreach (var note in chordNotes)
@@ -36,6 +36,7 @@ namespace Chordy.Domain
 				var noteInterval = lookup.NoteInterval(rootNoteIndex, note);
 				chordArray.Add(noteInterval);
 			}
+			chordArray.Sort();
 			return chordArray;
 		}
 	}
