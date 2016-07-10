@@ -18,11 +18,11 @@ namespace Chordy.Domain
 			{
 				return chordNotes[0];
 			}
-			var index = rootNoteIndex(chordNotes);
+			var index = RootNoteIndex(chordNotes);
 			return index.ToString();
 		}
 
-		public int rootNoteIndex(List<string> chordNotes)
+		public int RootNoteIndex(List<string> chordNotes)
 		{
 			var rootNote = chordNotes[0];
 			return lookup.NoteIndex(rootNote);

@@ -35,6 +35,8 @@
   <ItemGroup>
     <Compile Include="FretboardReaderTests.cs" />
     <Compile Include="ChordFinderTests.cs" />
+    <Compile Include="ChordLookupTests.cs" />
+    <Compile Include="ChordyTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

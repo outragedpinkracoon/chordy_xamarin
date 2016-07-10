@@ -27,23 +27,16 @@ namespace Chordy
 
 		partial void SearchButton_TouchUpInside(UIButton sender)
 		{
-			var reader = SetUpReader();
 			var input = ChordTextInput.Text;
 			string[] raw = input.Split(' ');
 			List<string> config = new List<string>(raw);
-			//var fretConfig = new List<string> { "X", "3", "2", "0", "1", "0" };
-			var result = reader.GenerateNotes(config);
+
+			var chordy = new Chordy();
+			var chord = chordy.Run(config);
+
 			ResultLabel.Hidden = false;
 			ResultLabel.Text = result.Prettify();
 
-		}
-
-		private FretboardReader SetUpReader()
-		{
-			var noteLookup = new NoteLookup();
-			var tuning = new List<string> { "E", "A", "D", "G", "B", "E" };
-			var reader = new FretboardReader(tuning, noteLookup);
-			return reader;
 		}
 	}
 }

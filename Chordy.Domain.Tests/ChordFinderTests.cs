@@ -26,7 +26,7 @@ namespace Chordy.Domain.Tests
 		public void IndexOfRootNote()
 		{
 			var chordNotes = new List<string> { "C", "E", "G" };
-			Assert.That(finder.rootNoteIndex(chordNotes), Is.EqualTo(3));
+			Assert.That(finder.RootNoteIndex(chordNotes), Is.EqualTo(3));
 		}
 
 		[Test]

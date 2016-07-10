@@ -43,6 +43,8 @@
     <Compile Include="Notelookup.cs" />
     <Compile Include="ChordFinder.cs" />
     <Compile Include="ListExtensions.cs" />
+    <Compile Include="ChordLookup.cs" />
+    <Compile Include="Chordy.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>

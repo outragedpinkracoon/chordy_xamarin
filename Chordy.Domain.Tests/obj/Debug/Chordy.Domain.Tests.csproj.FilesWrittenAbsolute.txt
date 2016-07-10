@@ -14,3 +14,11 @@
 /Users/valerie/projects/Chordy/Chordy.Domain.Tests/bin/Debug/nunit.framework.dll
 /Users/valerie/projects/Chordy/Chordy.Domain.Tests/bin/Debug/Chordy.Domain.dll
 /Users/valerie/projects/Chordy/Chordy.Domain.Tests/bin/Debug/Chordy.Domain.dll.mdb
+/Users/valerie/Dev/chordy_xamarin_ios/Chordy.Domain.Tests/obj/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/Users/valerie/Dev/chordy_xamarin_ios/Chordy.Domain.Tests/bin/Debug/Chordy.Domain.Tests.dll.mdb
+/Users/valerie/Dev/chordy_xamarin_ios/Chordy.Domain.Tests/bin/Debug/Chordy.Domain.Tests.dll
+/Users/valerie/Dev/chordy_xamarin_ios/Chordy.Domain.Tests/obj/Debug/Chordy.Domain.Tests.dll
+/Users/valerie/Dev/chordy_xamarin_ios/Chordy.Domain.Tests/obj/Debug/Chordy.Domain.Tests.dll.mdb
+/Users/valerie/Dev/chordy_xamarin_ios/Chordy.Domain.Tests/bin/Debug/nunit.framework.dll
+/Users/valerie/Dev/chordy_xamarin_ios/Chordy.Domain.Tests/bin/Debug/Chordy.Domain.dll
+/Users/valerie/Dev/chordy_xamarin_ios/Chordy.Domain.Tests/bin/Debug/Chordy.Domain.dll.mdb
