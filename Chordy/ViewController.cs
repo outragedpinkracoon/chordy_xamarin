@@ -36,6 +36,8 @@ namespace Chordy
 		string Run()
 		{
 			var input = ChordTextInput.Text;
+			if (input.Equals(string.Empty)) return "Enter a fretboard config";
+			
 			string[] raw = input.Split(' ');
 			var config = new List<string>(raw);
 
