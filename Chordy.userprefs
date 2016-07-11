@@ -1,10 +1,6 @@
 ﻿<Properties StartupItem="Chordy/Chordy.csproj">
-  <MonoDevelop.Ide.Workbench>
-    <Files>
-      <File FileName="Chordy/ViewController.cs" Line="40" Column="4" />
-    </Files>
-  </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
+  <MonoDevelop.Ide.Workbench />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release|iPhoneSimulator" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

@@ -43,7 +43,7 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="heightClass=regular-widthClass=compact">
-                                    <rect key="frame" x="158" y="65" width="59" height="20"/>
+                                    <rect key="frame" x="158" y="65" width="59" height="20.5"/>
                                     <mask key="constraints">
                                         <include reference="122"/>
                                     </mask>
