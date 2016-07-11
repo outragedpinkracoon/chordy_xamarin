@@ -1,18 +1,13 @@
 ﻿<Properties StartupItem="Chordy/Chordy.csproj">
   <MonoDevelop.Ide.Workbench>
-    <Pads>
-      <Pad Id="MonoDevelop.UnitTesting.TestPad">
-        <State name="__root__">
-          <Node name="Chordy" expanded="True" selected="True" />
-        </State>
-      </Pad>
-    </Pads>
+    <Files>
+      <File FileName="Chordy/ViewController.cs" Line="40" Column="4" />
+    </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|iPhoneSimulator" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.Chordy.Main PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.3715A779-2A90-49E5-AD72-DF223B33F239" />
-  <MonoDevelop.Ide.ItemProperties.Chordy PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.AD7DDC74-9A7C-4F94-BF1D-50ED20A859A0" />
+  <MonoDevelop.Ide.ItemProperties.Chordy PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.87A44992-7F08-4720-BF75-8685B9F2432D" />
 </Properties>
